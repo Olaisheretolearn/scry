@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewsFullActivity">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="News Today"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/regular"
+        android:padding="4dp"
+        android:textStyle="bold"
+        android:id="@+id/app_title"
+
+
+
+
+        />
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/app_title"
+        android:id="@+id/web_view"/>
+
+</RelativeLayout>
