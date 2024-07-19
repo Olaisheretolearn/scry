@@ -1,7 +1,7 @@
 # Scry
 
 Scry is a news app that lets you stay updated with the latest news from around the world. Using a news API, Scry provides categorized news articles and allows you to open the source directly within the app.
-![Alt text](scry.(7).png)
+<img src="scry.(7).png" alt="Alt text" width="400"/>
 
 
 ## Features
